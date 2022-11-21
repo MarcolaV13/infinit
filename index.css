@@ -81,6 +81,8 @@ button{
     text-align: center;
     font-style:normal;
     padding-top: 9px;
+    max-width: 600px;
+    min-width: 320px;
     
 
 }
