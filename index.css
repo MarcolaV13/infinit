@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cabeçalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+h1{
+    color: white;
+    font-size: 21px;
+    height: 10vh;
+    padding-top: 40px;
+}
+.principal{
+    display: flex;
+}
+.container1{
+   width: 40%;
+   height: 77vh;
+}
+
+.img{
+    height:77vh;
+    width: 100%
+   
+}
+
+.container2{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 62vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.perfume{
+    font-family: 'Montserrat', sans-serif;
+}
+.nome{
+   font-size: 30px;
+   padding-top: 9px;
+   font-family: 'Fraunces', serif;
+   color: rgb(26, 26, 26);
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+.numero{
+    font-family: 'Fraunces', serif;
+    font-size: 22px;
+    margin-top: 0px;
+    padding-top: 16px;
+    padding: 10px;
+}
+button{
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 120px;
+    width: 150px;
+    background-color: black;
+    color:white;
+}
+
+.rodape{
+    background-color:white;
+    height: 40px;
+    color:rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-style:normal;
+    padding-top: 9px;
+    
+
+}
